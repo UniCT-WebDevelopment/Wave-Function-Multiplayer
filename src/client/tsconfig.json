@@ -1,0 +1,12 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "../www",
+        "baseUrl": "./",
+        "paths": {
+            "@root/*":["src/ts/*"],
+            "@assets/*":["assets/*"]
+        }
+    }
+}
